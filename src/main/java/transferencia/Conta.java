@@ -2,10 +2,10 @@ package transferencia;
 
 public class Conta {
 
-    String agencia;
-    String numeroConta;
-    double saldo;
-    Cliente proprietario;
+    private String agencia;
+    private String numeroConta;
+    private double saldo;
+    private Cliente proprietario;
 
     public Conta(String agencia, String numeroConta, double saldo, Cliente proprietario) {
         this.agencia = agencia;
@@ -47,6 +47,7 @@ public class Conta {
             destino.realizarDeposito(valor);
             return true;
         }
+        return false;
     }
 
 

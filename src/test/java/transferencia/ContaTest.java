@@ -23,7 +23,6 @@ class ContaTest {
     @Test
     public void realizarTransacao(){
         contaXuxa.realizarTransferencia(1000.00, contaSilvio);
-
         assertEquals(1500.00, contaXuxa.getSaldo());
         assertEquals(4500.00, contaSilvio.getSaldo());
     }

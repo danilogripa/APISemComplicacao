@@ -30,7 +30,6 @@ class ContaTest {
     @Test
     public void validarTranferenciaInvalida(){
         boolean resultado = contaXuxa.realizarTransferencia(3500.00, contaSilvio);
-
         assertFalse(resultado);
     }
 

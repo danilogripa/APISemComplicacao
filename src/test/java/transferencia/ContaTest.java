@@ -15,7 +15,6 @@ class ContaTest {
     void setUp(){
         xuxa = new Cliente( "Xuxa", "12345678900", "123123");
         silvioSantos = new Cliente( "Silvio Santos", "12344578900", "123223");
-
         contaXuxa = new Conta("0026", "2234", 2500.00, xuxa);
         contaSilvio = new Conta("0036", "2251", 3500.00, silvioSantos);
     }
